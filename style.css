@@ -1,0 +1,23 @@
+.services-top{
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.services-top .card{
+    margin: 5px 10px;
+    border: 1px solid grey inherit;
+    overflow: hidden;
+    width: 14rem;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform .5s;
+}
+.services-top .card:hover{
+transform: translateY(-10px);
+}
+.services-top .card .content{
+text-align: center;
+}
