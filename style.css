@@ -57,6 +57,24 @@ h1{
 .box:hover{
     transform: translateY(-12px);
 }
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .app{
+ width: 15rem;
+}
+.footer .links{
+    width: 16rem;
+}
+.footer .links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 600px){
 
     .services-top{
