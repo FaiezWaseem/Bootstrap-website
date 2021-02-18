@@ -58,23 +58,48 @@ h1{
     transform: translateY(-12px);
 }
 /* footer */
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* .footer{
+    width: 100%;
+    background-color: black;
+     display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
 }
-.footer .app{
- width: 15rem;
-}
+
 .footer .links{
-    width: 16rem;
+    
+    width: 200px;
 }
 .footer .links ul{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
+
+.footer{
+    padding: 20px;
+    background-color: black;
+    
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul li{
+   text-align: center;
+    list-style: none;
+}
+.footer ul li a{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: white;
+}
+.footer ul li a:hover{
+    color: #ff234b;
+}
 @media screen and (max-width: 600px){
 
     .services-top{
